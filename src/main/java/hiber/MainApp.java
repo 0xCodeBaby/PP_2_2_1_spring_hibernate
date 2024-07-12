@@ -27,8 +27,7 @@ public class MainApp {
          System.out.println();
       });
 
-      User user = userService.getUserByCar("model1", 1);
-      System.out.println(user.getFirstName());
+      userService.getUserByCar("model1", 1);
       context.close();
    }
 }
